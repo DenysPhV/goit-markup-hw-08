@@ -1,0 +1,13 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+
+  padding: 64px 23px;
+  background-color: rgba(33, 150, 243, 0.9);
+  color: $white;
+
+  transform: translateY(105%);
+  transition: transform 250ms var(--transition-property);
+}

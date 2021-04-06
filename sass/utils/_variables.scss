@@ -1,0 +1,43 @@
+/* Основной акцент - #2196f3 */
+/* Второстипенный акцент - #188ce8 */
+/* Фон темный - #2f303a */
+/* Светло серый - #f5f4fa */
+/* Цвет текста в заголовках - #212121 */
+/* Цвет основного текста - #757575 */
+/* Цвет ссылок в спокойном состоянии - rgba(255, 255, 255, 0.6)*/
+/* фикс ширина max-width */
+/* Центрирование для секций margin */
+:root {
+  --accent-primary: #2196f3;
+  --accent-secondary: #188ce8;
+  --background-dark: #2f303a;
+  --light-gray: #f5f4fa;
+  --color-conten: #212121;
+  --main-text: #757575;
+  --border-color-header: #ececec;
+  --border-color: #eeeeee;
+  --icon-border-color: #afb1b8;
+  --rgba-link: rgba(255, 255, 255, 0.6);
+
+  --max-width: 1600px;
+  --margin: 0 auto;
+
+  --transition-property: cubic-bezier(0.4, 0, 0.2, 1);
+}
+// main colors
+$white: #ffffff;
+$black: #000000;
+
+// набор для шрифта
+$main-font: 'Roboto', sans-serif;
+$main-font-size: 14px;
+
+// font-weight
+$main-weight: 400;
+$secondary-weight: 500;
+$main-title: 700;
+$main-heading: 900;
+
+// letter-spacing
+$main-ls: 0.03em;
+$heading-ls: 0.06em;

@@ -1,0 +1,39 @@
+body {
+  font-family: $main-font;
+  font-size: $main-font-size;
+  font-weight: $main-weight;
+  color: var(--main-text);
+  letter-spacing: $main-ls;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+/* svg {
+  fill: currentColor;
+} */
+
+.link-nonstyle {
+  text-decoration: none;
+}
+
+.list-nonstyle {
+  list-style: none;
+}

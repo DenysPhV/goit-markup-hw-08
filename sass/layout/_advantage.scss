@@ -1,0 +1,26 @@
+.advantage__list {
+  display: flex;
+}
+
+.advantage__item {
+  width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.advantage__title {
+  color: var(--color-conten);
+
+  font-weight: $main-title;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+
+.advantage__rubric {
+  font-weight: $main-weight;
+  line-height: 1.71;
+}
