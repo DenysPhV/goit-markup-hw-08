@@ -1,14 +1,14 @@
 .logo {
+  margin-right: 95px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
   color: $black;
 
   font-family: 'Raleway', sans-serif;
   font-weight: $main-title;
   font-size: 26px;
   line-height: 1.19;
-
-  margin-right: 95px;
-  padding-top: 25px;
-  padding-bottom: 25px;
 
   &__dark {
     color: $black;
@@ -20,5 +20,17 @@
 
   &__light {
     color: $white;
+  }
+}
+
+// mobile
+@media (min-width: 320px) and (max-width: 767px) {
+  .logo {
+    margin-right: 0px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    font-size: 24px;
+    line-height: 1.17;
   }
 }

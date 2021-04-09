@@ -70,4 +70,22 @@
   .social {
     justify-content: center;
   }
+
+  .footer__social {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    margin-left: 0px;
+  }
+
+  .footer__social-title {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+
+  .footer__social-list {
+    display: flex;
+    justify-content: center;
+  }
 }
