@@ -1,9 +1,7 @@
-@media screen and (min-width: 1200px) {
-  .header {
-    border-bottom: solid 1px;
-    border-color: var(--border-color-header);
+.header {
+  border-bottom: solid 1px;
+  border-color: var(--border-color-header);
 
-    max-width: var(--max-width);
-    margin: var(--margin);
-  }
+  max-width: var(--max-width);
+  margin: var(--margin);
 }

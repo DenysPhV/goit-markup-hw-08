@@ -1,103 +1,41 @@
-// mobile
-@media screen and (max-width: 767px) {
-  .contact__list {
-    display: none;
+.contact {
+  margin-left: auto;
+}
+
+.contact__item {
+  margin-right: 50px;
+}
+
+.contact__link {
+  color: var(--main-text);
+  fill: var(--main-text);
+
+  font-weight: $secondary-weight;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: color 250ms var(--transition-property),
+    fill 250ms var(--transition-property);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-primary);
   }
 }
 
-// tablet
-@media screen and (min-width: 768px) {
-  .contact {
-    margin-left: auto;
-  }
+.contact__icon-mail,
+.contact__icon-tell {
+  margin-right: 10px;
 
-  // .contact__list {
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  // }
-
-  // .contact__item {
-  //   margin-right: 50px;
-  // }
-
-  .contact__link {
-    color: var(--main-text);
-    fill: var(--main-text);
-
-    font-weight: $secondary-weight;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-
-    // padding-top: 32px;
-    // padding-bottom: 32px;
-
-    transition: color 250ms var(--transition-property),
-      fill 250ms var(--transition-property);
-
-    &:hover,
-    &:focus {
-      color: var(--accent-primary);
-    }
-  }
-  .contact__icon-mail,
-  .contact__icon-tell {
-    margin-right: 10px;
-
-    .contact__link:hover &,
-    .contact__link:focus & {
-      fill: var(--accent-primary);
-    }
-  }
-}
-
-// desktop
-@media screen and (min-width: 1200px) {
-  .contact {
-    margin-left: auto;
-  }
-
-  .contact__list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .contact__item {
-    margin-right: 50px;
-  }
-
-  .contact__link {
-    color: var(--main-text);
-    fill: var(--main-text);
-
-    font-weight: $secondary-weight;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-
-    padding-top: 32px;
-    padding-bottom: 32px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    transition: color 250ms var(--transition-property),
-      fill 250ms var(--transition-property);
-
-    &:hover,
-    &:focus {
-      color: var(--accent-primary);
-    }
-  }
-
-  .contact__icon-mail,
-  .contact__icon-tell {
-    margin-right: 10px;
-
-    .contact__link:hover &,
-    .contact__link:focus & {
-      fill: var(--accent-primary);
-    }
+  .contact__link:hover &,
+  .contact__link:focus & {
+    fill: var(--accent-primary);
   }
 }

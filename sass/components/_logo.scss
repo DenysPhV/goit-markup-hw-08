@@ -1,62 +1,24 @@
-// mobile
-@media screen and (min-width: 480px) {
-  .logo {
-    display: block;
+.logo {
+  color: $black;
 
-    padding-top: 16px;
-    padding-bottom: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: $main-title;
+  font-size: 26px;
+  line-height: 1.19;
 
-    font-family: 'Raleway', sans-serif;
-    font-weight: $main-title;
-    font-size: 24px;
-    line-height: 1.17;
+  margin-right: 95px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 
-    &__dark {
-      color: $black;
-    }
-
-    &__decor {
-      color: var(--accent-primary);
-    }
-
-    &__light {
-      color: $white;
-    }
-  }
-}
-
-// tablet
-@media screen and (min-width: 768px) {
-  .logo {
-    margin-right: 88px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-}
-
-// desktop
-@media screen and (min-width: 1200px) {
-  .logo {
-    margin-right: 95px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+  &__dark {
     color: $black;
+  }
 
-    font-family: 'Raleway', sans-serif;
-    font-weight: $main-title;
-    font-size: 26px;
-    line-height: 1.19;
+  &__decor {
+    color: var(--accent-primary);
+  }
 
-    &__dark {
-      color: $black;
-    }
-
-    &__decor {
-      color: var(--accent-primary);
-    }
-
-    &__light {
-      color: $white;
-    }
+  &__light {
+    color: $white;
   }
 }

@@ -1,134 +1,39 @@
-// mobile
-@media (min-width: 480px) and (max-width: 767px) {
-  .section {
-    min-width: 480px;
-    margin: var(--margin);
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 
-    &-title {
-      color: var(--color-conten);
+  max-width: var(--max-width);
+  margin: var(--margin);
 
-      font-weight: $main-title;
-      font-size: 28px;
-      line-height: 1.18;
-      text-align: center;
+  &-title {
+    color: var(--color-conten);
 
-      margin-bottom: 50px;
-    }
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 
-    &-hero {
-      min-width: 480px;
-
-      padding-top: 118px;
-      padding-bottom: 118px;
-    }
-
-    &-advantage {
-      padding-top: 60px;
-      padding-bottom: 60px;
-    }
-
-    &-footer {
-      min-width: 480px;
-      padding-top: 60px;
-      padding-bottom: 60px;
-
-      // margin: var(--margin);
-    }
+    margin-bottom: 50px;
   }
-}
 
-// tablet
-@media screen and (min-width: 768px) {
-  .section {
-    min-width: 768px;
+  &-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     margin: var(--margin);
-
-    &-title {
-      color: var(--color-conten);
-
-      font-weight: $main-title;
-      font-size: 28px;
-      line-height: 1.18;
-      text-align: center;
-
-      margin-bottom: 50px;
-    }
-
-    &-hero {
-      min-width: 768px;
-
-      padding-top: 118px;
-      padding-bottom: 118px;
-    }
-
-    &-advantage {
-      min-width: 768px;
-
-      padding-top: 60px;
-      padding-bottom: 60px;
-    }
-
-    &-footer {
-      min-width: 768px;
-      padding-top: 60px;
-      padding-bottom: 60px;
-
-      // margin: var(--margin);
-    }
   }
-}
 
-// desktop
-@media screen and (min-width: 1200px) {
-  .section {
-    min-width: 1200px;
+  &-advantage {
     padding-top: 94px;
-    padding-bottom: 94px;
 
     max-width: var(--max-width);
     margin: var(--margin);
+  }
 
-    &-title {
-      color: var(--color-conten);
+  &-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
 
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 1.17;
-      text-align: center;
-
-      margin-bottom: 50px;
-    }
-
-    &-hero {
-      min-width: 1200px;
-
-      padding-top: 200px;
-      padding-bottom: 200px;
-    }
-
-    &-advantage {
-      min-width: 1200px;
-      padding-top: 94px;
-      padding-bottom: 0px;
-
-      // max-width: var(--max-width);
-      // margin: var(--margin);
-    }
-
-    &-team {
-      min-width: 1200px;
-      padding-top: 94px;
-      padding-bottom: 94px;
-
-      // margin: var(--margin);
-    }
-
-    &-footer {
-      min-width: 1200px;
-      padding-top: 60px;
-      padding-bottom: 60px;
-
-      // margin: var(--margin);
-    }
+    margin: var(--margin);
   }
 }
