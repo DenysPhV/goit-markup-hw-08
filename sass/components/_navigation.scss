@@ -1,63 +1,74 @@
-%navigation-bloc {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-
-  display: inline-block;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-}
-
-.navigation {
-  display: flex;
-  align-items: center;
-}
-
-.navigation__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.navigation__item {
-  &:not(:last-child) {
-    margin-right: 50px;
+// mobile
+@media screen and (max-width: 480px) {
+  .navigation__list {
+    display: none;
   }
 }
 
-.navigation__link {
-  position: relative;
+// desktop & tablet
+@media (min-width: 768px), (min-width: 1200px) {
+  %navigation-bloc {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
 
-  font-weight: $secondary-weight;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  padding-top: 32px;
-  padding-bottom: 32px;
-
-  color: var(--color-conten);
-  transition: color 250ms var(--transition-property);
-
-  &:hover,
-  &:focus {
-    color: var(--accent-primary);
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
   }
 
-  &::after {
-    @extend %navigation-bloc;
-
-    background-color: var(--accent-primary);
-
-    transition: transform 250ms var(--transition-property);
-    transform: scaleX(0);
+  .navigation {
+    display: flex;
+    align-items: center;
   }
 
-  &:hover::after {
-    @extend %navigation-bloc;
+  .navigation__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+  }
 
-    background-color: var(--accent-primary);
-    transform: scaleX(1);
+  .navigation__item {
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
+
+  .navigation__link {
+    position: relative;
+
+    font-weight: $secondary-weight;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: var(--color-conten);
+    transition: color 250ms var(--transition-property);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-primary);
+    }
+
+    &::after {
+      @extend %navigation-bloc;
+
+      background-color: var(--accent-primary);
+
+      transition: transform 250ms var(--transition-property);
+      transform: scaleX(0);
+    }
+
+    &:hover::after {
+      @extend %navigation-bloc;
+
+      background-color: var(--accent-primary);
+      transform: scaleX(1);
+    }
   }
 }
