@@ -1,9 +1,10 @@
 // mobile
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .logo {
     display: block;
 
-    margin-bottom: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 
     font-family: 'Raleway', sans-serif;
     font-weight: $main-title;
@@ -25,7 +26,7 @@
 }
 
 // tablet
-@media (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .logo {
     margin-right: 88px;
     padding-top: 25px;

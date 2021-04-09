@@ -1,5 +1,5 @@
 // mobile
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .social {
     // display: flex;
     // justify-content: space-around;
@@ -70,6 +70,7 @@
     }
   }
 }
+
 // desktop
 @media screen and (min-width: 1200px) {
   .social {

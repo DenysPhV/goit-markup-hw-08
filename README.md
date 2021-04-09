@@ -77,7 +77,7 @@ mobileMenuRef.classList.toggle("is-open"); }); })();
 
 правила для девайсов которые работают так как указанно в макете
 
-// mobile мобилный @media screen and (max-width: 480px) { .section { max-width:
+// mobile мобилный @media screen and (min-width: 480px) { .section { max-width:
 480px; } }
 
 // tablet планшет @media screen and (min-width: 768px) { .section { min-width:

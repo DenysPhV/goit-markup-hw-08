@@ -1,7 +1,7 @@
 // mobile
-@media screen and (max-width: 480px) {
+@media (min-width: 480px) and (max-width: 767px) {
   .section {
-    max-width: 480px;
+    min-width: 480px;
     margin: var(--margin);
 
     &-title {
