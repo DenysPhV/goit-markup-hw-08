@@ -1,6 +1,7 @@
 .team {
   background-color: var(--light-gray);
 }
+
 .team__list {
   display: flex;
   margin-left: -30px;
@@ -41,4 +42,17 @@
 .team__function {
   font-size: 16px;
   line-height: 1.19;
+}
+
+// mobile
+@media (min-width: 320px) and (max-width: 767px) {
+  .team__list {
+    display: inline;
+  }
+  .team__item {
+    margin-left: 0px;
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
 }

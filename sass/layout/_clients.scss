@@ -12,9 +12,9 @@
   width: 170px;
   height: 90px;
 
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
+  //   &:not(:last-child) {
+  //     margin-right: 30px;
+  //   }
 }
 
 .clients__link {
@@ -42,5 +42,20 @@
   .clients__link:hover &,
   .clients__link:focus & {
     fill: var(--accent-primary);
+  }
+}
+
+// mobile
+@media (min-width: 320px) and (max-width: 767px) {
+  .clients__list {
+    flex-wrap: wrap;
+  }
+
+  .clients__item {
+    width: 210px;
+    height: 90px;
+
+    flex-basis: calc((100% - 2 * 30px) / 2);
+    margin: 15px;
   }
 }

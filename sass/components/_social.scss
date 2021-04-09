@@ -64,3 +64,10 @@
     fill: $white;
   }
 }
+
+// mobile
+@media (min-width: 320px) and (max-width: 767px) {
+  .social {
+    justify-content: center;
+  }
+}

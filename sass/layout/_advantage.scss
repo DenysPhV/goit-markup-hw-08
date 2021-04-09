@@ -24,3 +24,24 @@
   font-weight: $main-weight;
   line-height: 1.71;
 }
+
+// mobile
+@media (min-width: 320px) and (max-width: 767px) {
+  .advantage__title {
+    text-align: center;
+  }
+
+  .advantage__list {
+    display: inline;
+  }
+
+  .advantage__item {
+    display: inline;
+    width: 100%;
+  }
+
+  .advantage__rubric {
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+}

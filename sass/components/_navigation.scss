@@ -61,3 +61,10 @@
     transform: scaleX(1);
   }
 }
+
+// mobile
+@media (min-width: 320px) and (max-width: 767px) {
+  .navigation__list {
+    display: none;
+  }
+}
