@@ -71,8 +71,8 @@ mobileMenuRef.classList.toggle("is-open"); }); })();
 // mobile мобилный @media screen and (min-width: 480px) { .section { max-width:
 480px; } }
 
-// tablet планшет @media screen and (min-width: 768px) { .section { min-width:
-768px; } }
+// tablet планшет @media screen and (min-width: 798px) { .section { min-width:
+798px; } }
 
 // desktop пк @media screen and (min-width: 1200px) { .section { min-width:
 1200px; } }

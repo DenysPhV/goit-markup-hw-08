@@ -42,3 +42,10 @@
   border: transparent;
   cursor: pointer;
 }
+
+// tablet
+@media screen and (min-width: 798px) {
+  .mobile-menu {
+    display: none;
+  }
+}
