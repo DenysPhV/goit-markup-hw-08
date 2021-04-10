@@ -1,14 +1,17 @@
 .logo {
-  margin-right: 95px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-
   color: $black;
 
   font-family: 'Raleway', sans-serif;
   font-weight: $main-title;
   font-size: 26px;
   line-height: 1.19;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  //   margin-right: 95px;
+  //   padding-top: 25px;
+  //   padding-bottom: 25px;
 
   &__dark {
     color: $black;
@@ -24,27 +27,9 @@
 }
 
 // mobile
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .logo {
-    margin-right: 0px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-
-    font-size: 24px;
-    line-height: 1.17;
-  }
+@media screen and (min-width: 480px) {
 }
 
 // tablet
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .logo {
-    font-size: 24px;
-    line-height: 1.17;
-
-    .footer & {
-      margin-right: 0;
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-  }
+@media screen and (min-width: 798px) {
 }
