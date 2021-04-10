@@ -5,6 +5,9 @@
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/desktop/bg-hero@1x.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -50,7 +53,7 @@
 }
 
 // mobile
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .hero {
     background-color: var(--background-dark);
     background-image: linear-gradient(
@@ -58,9 +61,6 @@
         rgba(47, 48, 58, 0.4)
       ),
       url(../images/mobile/bg-hero@1x.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -73,17 +73,63 @@
           rgba(47, 48, 58, 0.4)
         ),
         url(../images/mobile/bg-hero@2x.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
     }
   }
 
   .hero-title {
     width: 360px;
-    height: 164px;
+    height: 84px;
 
     font-size: 26px;
     line-height: 1.62;
+  }
+}
+
+// tablet
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .hero {
+    background-color: var(--background-dark);
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/tablet/bg-hero@1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-color: var(--background-dark);
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/tablet/bg-hero@2x.jpg);
+    }
+  }
+
+  .hero-title {
+    width: 360px;
+    height: 84px;
+
+    font-size: 26px;
+    line-height: 1.62;
+  }
+}
+
+// desktop
+@media screen and (min-width: 1200px) {
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-color: var(--background-dark);
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/tablet/bg-hero@2x.jpg);
+    }
   }
 }
