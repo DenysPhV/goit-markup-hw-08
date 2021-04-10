@@ -38,11 +38,13 @@
 // tablet
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .logo {
-    // margin-right: 0px;
-    // padding-top: 0px;
-    // padding-bottom: 0px;
-
     font-size: 24px;
     line-height: 1.17;
+
+    .footer & {
+      margin-right: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
   }
 }

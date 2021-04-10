@@ -58,6 +58,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .advantage__list {
+    justify-content: center;
+  }
   .advantage__item {
     &:not(:last-child) {
       margin-right: 30px;

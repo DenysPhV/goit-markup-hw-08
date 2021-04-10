@@ -1,5 +1,4 @@
 .container {
-  min-width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -43,5 +42,11 @@
       padding-left: 150px;
       padding-right: 150px;
     }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
   }
 }

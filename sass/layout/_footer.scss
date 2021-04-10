@@ -169,6 +169,10 @@
 
 // desktop
 @media screen and (min-width: 1200px) {
+  .footer-form__container {
+    align-items: center;
+  }
+
   .footer-form__input {
     min-width: 358px;
   }

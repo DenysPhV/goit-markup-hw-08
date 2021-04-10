@@ -41,6 +41,7 @@
 
 .footer__social-title {
   color: $white;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -80,7 +81,7 @@
 
   .footer__social-title {
     text-align: center;
-    font-size: 14px;
+
     line-height: 1.14;
   }
 
@@ -97,7 +98,6 @@
   }
 
   .footer__social-title {
-    font-size: 14px;
     line-height: 1.14;
   }
 }
