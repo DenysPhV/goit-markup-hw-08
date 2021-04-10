@@ -51,8 +51,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
+  // width: 528px;
+  // height: 581px;
 
   background-color: $white;
   border-radius: 4px;
@@ -161,9 +163,11 @@
 .label-checkbox__terms-link {
   display: flex;
   align-items: center;
+  font-size: 12px;
+  line-height: 1.17;
 
-  font-size: 14px;
-  line-height: 1.71;
+  // font-size: 14px;
+  // line-height: 1.71;
   letter-spacing: 0.03em;
 
   cursor: pointer;
@@ -223,4 +227,8 @@
   &:focus {
     background-color: var(--accent-secondary);
   }
+}
+
+// mobile
+@media screen and (min-width: 480px) {
 }
