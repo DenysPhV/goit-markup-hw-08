@@ -1,8 +1,6 @@
 .collection__list {
   display: flex;
   flex-wrap: wrap;
-  //   margin-top: -30px;
-  //   margin-left: -30px;
 }
 
 .collection__item {
@@ -56,11 +54,25 @@
 
 // mobile
 @media screen and (min-width: 480px) {
-  .collection__list {
-    justify-content: center;
-  }
+  // .collection__list {
+  //   justify-content: center;
+  // }
 
   .collection__item {
     width: 450px;
+  }
+}
+
+// tablet
+@media screen and (min-width: 768px) {
+  .collection__list {
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+
+  .collection__item {
+    flex-basis: calc((100% - 2 * 30px) / 2);
+    margin-top: 30px;
+    margin-left: 30px;
   }
 }

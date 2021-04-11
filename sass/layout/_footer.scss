@@ -127,3 +127,15 @@
     align-self: center;
   }
 }
+
+// tablet
+@media screen and (min-width: 768px) {
+  .footer__address {
+    margin-right: 165px;
+  }
+
+  .footer-form {
+    margin-top: 60px;
+    width: 450px;
+  }
+}
