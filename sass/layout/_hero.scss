@@ -89,3 +89,32 @@
     }
   }
 }
+
+// desktop
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-color: var(--background-dark);
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/desktop/bg-hero@1x.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/desktop/bg-hero@2x.jpg);
+    }
+  }
+  .hero-title {
+    width: 700px;
+    height: 160px;
+
+    font-size: 44px;
+    line-height: 1.36;
+  }
+}

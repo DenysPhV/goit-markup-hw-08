@@ -2,10 +2,6 @@
   margin-left: auto;
 }
 
-// .contact__item {
-//   margin-right: 50px;
-// }
-
 .contact__link {
   color: var(--main-text);
   fill: var(--main-text);
@@ -45,5 +41,12 @@
   .contact__link {
     padding-top: 5px;
     padding-bottom: 5px;
+  }
+}
+
+// desktop
+@media screen and (min-width: 1200px) {
+  .contact__item {
+    margin-right: 50px;
   }
 }

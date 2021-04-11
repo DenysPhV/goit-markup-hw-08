@@ -166,8 +166,6 @@
   font-size: 12px;
   line-height: 1.17;
 
-  // font-size: 14px;
-  // line-height: 1.71;
   letter-spacing: 0.03em;
 
   cursor: pointer;
@@ -229,6 +227,15 @@
   }
 }
 
-// mobile
-@media screen and (min-width: 480px) {
+// desktop
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+
+  .label-checkbox__terms-link {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }

@@ -55,11 +55,11 @@
   .clients__list {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
 
     margin-top: -30px;
     margin-left: -30px;
   }
+
   .clients__item {
     flex-basis: calc((100% - 2 * 30px) / 2);
     margin-top: 30px;
@@ -71,5 +71,21 @@
 @media screen and (min-width: 768px) {
   .clients__item {
     flex-basis: calc((100% - 3 * 30px) / 3);
+  }
+}
+
+// desktop
+@media screen and (min-width: 1200px) {
+  .clients__list {
+    flex-wrap: nowrap;
+
+    margin-top: 0px;
+    margin-left: -30px;
+  }
+
+  .clients__item {
+    flex-basis: calc((100% - 6 * 30px) / 1);
+    margin-top: 0px;
+    margin-left: 30px;
   }
 }

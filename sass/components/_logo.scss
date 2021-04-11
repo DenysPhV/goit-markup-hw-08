@@ -20,20 +20,34 @@
   &__light {
     color: $white;
   }
+
+  .footer__address & {
+    margin-right: 0px;
+  }
 }
 
 // mobile
 @media screen and (min-width: 480px) {
   .logo {
     margin-right: 88px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-  .footer__address .logo {
-    margin-right: 0px;
   }
 }
 
 // tablet
 @media screen and (min-width: 768px) {
+  .logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+// desktop
+@media screen and (min-width: 1200px) {
+  .logo {
+    margin-right: 95px;
+
+    .footer__address & {
+      margin-right: 95px;
+    }
+  }
 }

@@ -18,8 +18,6 @@
 
 .navigation__list {
   display: flex;
-  // align-items: center;
-  // justify-content: center;
 }
 
 .navigation__item {
@@ -63,6 +61,7 @@
   }
 }
 
+// убираю список навигации из потока вообще
 @media screen and (max-width: 767px) {
   .navigation__list {
     display: none;
@@ -81,5 +80,14 @@
   .navigation__list.contact {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+// desktop
+@media screen and (min-width: 1200px) {
+  .navigation__list.contact {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 }

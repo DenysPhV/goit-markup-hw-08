@@ -34,15 +34,11 @@
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+    .footer & {
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
   }
 }
-
-// .container {
-//   width: 1200px;
-
-//   .footer & {
-
-//     padding-top: 0px;
-//     padding-bottom: 0px;
-//   }
-// }
