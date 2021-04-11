@@ -53,7 +53,8 @@
     transform: scaleX(0);
   }
 
-  &:hover::after {
+  &:hover::after,
+  &:focus::after {
     @extend %navigation-bloc;
 
     background-color: var(--accent-primary);
