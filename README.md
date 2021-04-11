@@ -1,19 +1,6 @@
 # goit-markup-hw-08
 
-Разметка
-
-«B5» Выполнена разметка мобильного меню.
-
-Оформление
-
-«C2» Стили необходимые только в определённом промежутке, закрыты в медиа-запросы
-(min-width: ) and (max-width: ) или только (max-width: ).
-
-«C3» В медиа-запросах отсутствует лишнее дублирование стилей.
-
-«C5» Выполнено оформление мобильного меню.
-
-================= start js ====================== Открытие мобильного меню
+Открытие мобильного меню
 
 Мобильное меню открывается по клику на кнопку "бургера". Для того чтобы скрипт
 сработал необходимо добавить в разметку специальные атрибуты, по которым скрипт
@@ -51,11 +38,8 @@ mobileMenuRef.classList.toggle("is-open"); }); })();
 
 правила для девайсов которые работают так как указанно в макете
 
-// mobile мобилный @media screen and (min-width: 480px) { .section { max-width:
-480px; } }
+// mobile мобилный @media screen and (min-width: 480px) { .... }
 
-// tablet планшет @media screen and (min-width: 768px) { .section { min-width:
-768px; } }
+// tablet планшет @media screen and (min-width: 768px) { .... }
 
-// desktop пк @media screen and (min-width: 1200px) { .section { min-width:
-1200px; } }
+// desktop пк @media screen and (min-width: 1200px) { .... }
