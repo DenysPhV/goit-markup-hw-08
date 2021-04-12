@@ -22,13 +22,6 @@
     margin: var(--margin);
   }
 
-  &-footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-
-    margin: var(--margin);
-  }
-
   &-advantage {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -42,6 +35,23 @@
 
     margin: var(--margin);
   }
+
+  &-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    margin: var(--margin);
+  }
+}
+// mobile
+@media screen and (min-width: 320px) {
+  .section {
+    &-hero,
+    &-team,
+    &-footer {
+      min-width: 480px;
+    }
+  }
 }
 
 // desktop
@@ -50,20 +60,16 @@
     padding-top: 94px;
     padding-bottom: 94px;
 
-    max-width: var(--max-width);
+    // max-width: var(--max-width);
 
     &-hero {
       padding-top: 200px;
       padding-bottom: 200px;
-
-      max-width: var(--max-width);
     }
 
     &-advantage {
       padding-top: 94px;
       padding-bottom: 0px;
-
-      max-width: var(--max-width);
     }
 
     &-team {

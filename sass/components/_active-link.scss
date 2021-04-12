@@ -18,3 +18,9 @@
     transform: scaleX(1);
   }
 }
+
+.mobile-link_active {
+  &:active {
+    color: var(--accent-primary);
+  }
+}

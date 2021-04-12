@@ -2,7 +2,6 @@
   display: flex;
 
   justify-content: center;
-  //   align-items: center;
 }
 
 .clients__item {
@@ -12,14 +11,6 @@
 
   width: 170px;
   height: 90px;
-
-  //   flex-basis: calc((100% - 2 * 30px) / 2);
-  //   margin-top: 30px;
-  //   margin-left: 30px;
-
-  //   &:not(:last-child) {
-  //     margin-right: 30px;
-  //   }
 }
 
 .clients__link {
@@ -51,7 +42,7 @@
 }
 
 // mobile
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .clients__list {
     display: flex;
     flex-wrap: wrap;

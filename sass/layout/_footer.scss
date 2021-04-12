@@ -1,6 +1,6 @@
-.footer {
-  background-color: var(--background-dark);
-}
+// .footer {
+//   background-color: var(--background-dark);
+// }
 
 .footer__address {
   font-style: normal;
@@ -92,7 +92,11 @@
 }
 
 // mobile
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
+  .footer {
+    background-color: var(--background-dark);
+  }
+
   .footer__address {
     text-align: center;
   }
