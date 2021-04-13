@@ -831,7 +831,7 @@ img {
 .mobile-menu__btn {
   position: absolute;
   top: 10px;
-  right: 15px;
+  right: 30px;
   background-color: transparent;
   border: transparent;
   cursor: pointer;
@@ -843,7 +843,7 @@ img {
 }
 
 .mobile-menu__contakt-list {
-  margin-top: 300px;
+  margin-top: 200px;
 }
 
 .mobile-menu__contakt-item {
