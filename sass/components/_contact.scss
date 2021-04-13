@@ -46,7 +46,7 @@
 
 // desktop
 @media screen and (min-width: 1200px) {
-  .contact__item {
+  .contact__item:not(:last-child) {
     margin-right: 50px;
   }
 }

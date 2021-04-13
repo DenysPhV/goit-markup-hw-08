@@ -51,10 +51,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  width: 450px;
+  max-width: 320px;
   height: 609px;
-  // width: 528px;
-  // height: 581px;
 
   background-color: $white;
   border-radius: 4px;
@@ -163,6 +161,7 @@
 .label-checkbox__terms-link {
   display: flex;
   align-items: center;
+
   font-size: 12px;
   line-height: 1.17;
 
@@ -224,6 +223,17 @@
   &:hover,
   &:focus {
     background-color: var(--accent-secondary);
+  }
+}
+
+// mobile
+@media screen and (min-width: 480px) {
+  .modal {
+    min-width: 450px;
+  }
+
+  .label-checkbox__link {
+    flex-wrap: wrap;
   }
 }
 

@@ -20,7 +20,5 @@
 }
 
 .mobile-link_active {
-  &:active {
-    color: var(--accent-primary);
-  }
+  color: var(--accent-primary);
 }

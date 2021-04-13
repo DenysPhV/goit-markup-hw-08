@@ -92,6 +92,7 @@
 // desktop
 @media screen and (min-width: 1200px) {
   .hero {
+    max-width: var(--max-width);
     background-color: var(--background-dark);
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
