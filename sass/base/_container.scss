@@ -1,4 +1,5 @@
 .container {
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 
@@ -6,9 +7,8 @@
 }
 
 // mobile
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
   .container {
-    margin: 0 auto;
     width: 480px;
   }
 }

@@ -1,4 +1,6 @@
 .hero {
+  max-width: 100%;
+
   background-color: var(--background-dark);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -22,11 +24,7 @@
 
 .hero-title {
   color: $white;
-  width: 360px;
-  height: 84px;
 
-  //   width: 700px;
-  //   height: 160px;
   margin: 0 auto;
 
   font-weight: $main-heading;
@@ -35,9 +33,6 @@
   line-height: 1.62;
   text-align: center;
   text-transform: uppercase;
-
-  // font-size: 44px;
-  // line-height: 1.36;
 }
 
 .btn-hero {
@@ -87,6 +82,10 @@
         ),
         url(../images/tablet/bg-hero@2x.jpg);
     }
+  }
+  .hero-title {
+    width: 360px;
+    height: 84px;
   }
 }
 
