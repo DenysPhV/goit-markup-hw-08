@@ -784,13 +784,20 @@ img {
   top: 0;
   left: 0;
   height: 100%;
-  padding: 64px 23px;
+  padding: 30px 23px;
   background-color: rgba(33, 150, 243, 0.9);
   color: #ffffff;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 1.55;
   transform: translateY(105%);
   transition: transform 250ms var(--transition-property);
+}
+
+@media screen and (min-width: 480px) {
+  .overlay {
+    padding: 64px 23px;
+    font-size: 18px;
+  }
 }
 
 .mobile-menu {
