@@ -63,7 +63,7 @@
 }
 
 // убираю список навигации из потока вообще
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .navigation__list {
     display: none;
   }

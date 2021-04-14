@@ -52,7 +52,6 @@
   transform: translate(-50%, -50%);
 
   max-width: 320px;
-  height: 609px;
 
   background-color: $white;
   border-radius: 4px;
@@ -150,10 +149,6 @@
 }
 
 .label-checkbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -174,7 +169,7 @@
     content: '';
     display: block;
 
-    width: 15px;
+    min-width: 15px;
     height: 16px;
 
     margin-right: 8px;
@@ -230,17 +225,19 @@
 @media screen and (min-width: 480px) {
   .modal {
     min-width: 450px;
+    height: 609px;
   }
 
-  .label-checkbox__link {
-    flex-wrap: wrap;
+  .label-checkbox__terms-link {
+    display: flex;
+    align-items: center;
   }
 }
 
 // desktop
 @media screen and (min-width: 1200px) {
   .modal {
-    width: 528px;
+    min-width: 528px;
     height: 581px;
   }
 
