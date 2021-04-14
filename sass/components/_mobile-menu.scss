@@ -96,6 +96,7 @@
 // social list
 .mobile-menu__social-list {
   display: flex;
+  flex-wrap: wrap;
 
   margin-top: 64px;
 
@@ -105,6 +106,7 @@
 
 .mobile-menu__social-item {
   position: relative;
+  margin-bottom: 10px;
 
   &:not(:last-child) {
     padding-right: 2%;

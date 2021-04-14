@@ -881,6 +881,7 @@ img {
 
 .mobile-menu__social-list {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 64px;
   font-size: 18px;
   line-height: 1.22;
@@ -888,6 +889,7 @@ img {
 
 .mobile-menu__social-item {
   position: relative;
+  margin-bottom: 10px;
 }
 
 .mobile-menu__social-item:not(:last-child) {
