@@ -9,17 +9,14 @@
   margin-bottom: 10px;
 }
 
-.advantage__rubric {
-  font-weight: $main-weight;
-  line-height: 1.71;
-}
+.advantage__item {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
 
-// mobile
-@media screen and (min-width: 480px) {
-  .advantage__item {
-    &:not(:last-child) {
-      margin-bottom: 30px;
-    }
+  .advantage__rubric {
+    font-weight: $main-weight;
+    line-height: 1.71;
   }
 }
 

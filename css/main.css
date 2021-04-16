@@ -829,7 +829,7 @@ img {
 }
 
 .mobile-menu__list {
-  font-size: 40px;
+  font-size: 26px;
 }
 
 .mobile-menu__item:not(:last-child) {
@@ -860,7 +860,7 @@ img {
 }
 
 .mobile-menu__contakt-list {
-  margin-top: 190px;
+  margin-top: 150px;
 }
 
 .mobile-menu__contakt-item {
@@ -871,7 +871,7 @@ img {
 .mobile-menu__contakt-link {
   display: block;
   color: var(--accent-primary);
-  font-size: 34px;
+  font-size: 26px;
   margin-bottom: 32px;
   transition: color 250ms var(--transition-property);
 }
@@ -911,6 +911,18 @@ img {
 
 .mobile-menu__social-link:hover, .mobile-menu__social-link:focus {
   color: var(--accent-secondary);
+}
+
+@media screen and (min-width: 480px) {
+  .mobile-menu__list {
+    font-size: 40px;
+  }
+  .mobile-menu__contakt-list {
+    margin-top: 200px;
+  }
+  .mobile-menu__contakt-link {
+    font-size: 34px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1043,15 +1055,13 @@ img {
   margin-bottom: 10px;
 }
 
-.advantage__rubric {
-  font-weight: 400;
-  line-height: 1.71;
+.advantage__item:not(:last-child) {
+  margin-bottom: 30px;
 }
 
-@media screen and (min-width: 480px) {
-  .advantage__item:not(:last-child) {
-    margin-bottom: 30px;
-  }
+.advantage__item .advantage__rubric {
+  font-weight: 400;
+  line-height: 1.71;
 }
 
 @media screen and (min-width: 768px) {
