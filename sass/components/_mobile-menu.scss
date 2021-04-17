@@ -46,7 +46,7 @@
 }
 
 .mobile-menu__link {
-  color: var(--color-conten);
+  color: var(--color-content);
   transition: color 250ms var(--transition-property);
   &:hover,
   &:focus {
@@ -70,17 +70,17 @@
   }
 }
 
-// contakt list
-.mobile-menu__contakt-list {
+// contact list
+.mobile-menu__contact-list {
   margin-top: 150px;
 }
 
-.mobile-menu__contakt-item {
+.mobile-menu__contact-item {
   font-size: 24px;
   line-height: 1.17;
 }
 
-.mobile-menu__contakt-link {
+.mobile-menu__contact-link {
   display: block;
   color: var(--accent-primary);
   font-size: 26px;
@@ -135,12 +135,12 @@
     font-size: 40px;
   }
 
-  // contakt list
-  .mobile-menu__contakt-list {
+  // contact list
+  .mobile-menu__contact-list {
     margin-top: 200px;
   }
 
-  .mobile-menu__contakt-link {
+  .mobile-menu__contact-link {
     font-size: 34px;
   }
 }

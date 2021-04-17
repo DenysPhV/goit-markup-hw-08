@@ -13,7 +13,7 @@
   --accent-secondary: #188ce8;
   --background-dark: #2f303a;
   --light-gray: #f5f4fa;
-  --color-conten: #212121;
+  --color-content: #212121;
   --main-text: #757575;
   --border-color-header: #ececec;
   --border-color: #eeeeee;
@@ -122,7 +122,7 @@ img {
 }
 
 .section-title {
-  color: var(--color-conten);
+  color: var(--color-content);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -349,7 +349,7 @@ img {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
-  color: var(--color-conten);
+  color: var(--color-content);
   transition: color 250ms var(--transition-property);
 }
 
@@ -481,7 +481,7 @@ img {
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-  color: var(--color-conten);
+  color: var(--color-content);
 }
 
 .modal__field {
@@ -648,7 +648,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  color: var(--color-conten);
+  color: var(--color-content);
   background-color: var(--light-gray);
   cursor: pointer;
   min-width: 73px;
@@ -733,7 +733,7 @@ img {
 }
 
 .collection__title {
-  color: var(--color-conten);
+  color: var(--color-content);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -837,7 +837,7 @@ img {
 }
 
 .mobile-menu__link {
-  color: var(--color-conten);
+  color: var(--color-content);
   transition: color 250ms var(--transition-property);
 }
 
@@ -859,16 +859,16 @@ img {
   fill: var(--accent-primary);
 }
 
-.mobile-menu__contakt-list {
+.mobile-menu__contact-list {
   margin-top: 150px;
 }
 
-.mobile-menu__contakt-item {
+.mobile-menu__contact-item {
   font-size: 24px;
   line-height: 1.17;
 }
 
-.mobile-menu__contakt-link {
+.mobile-menu__contact-link {
   display: block;
   color: var(--accent-primary);
   font-size: 26px;
@@ -876,7 +876,7 @@ img {
   transition: color 250ms var(--transition-property);
 }
 
-.mobile-menu__contakt-link:hover, .mobile-menu__contakt-link:focus {
+.mobile-menu__contact-link:hover, .mobile-menu__contact-link:focus {
   color: var(--accent-secondary);
 }
 
@@ -917,10 +917,10 @@ img {
   .mobile-menu__list {
     font-size: 40px;
   }
-  .mobile-menu__contakt-list {
+  .mobile-menu__contact-list {
     margin-top: 200px;
   }
-  .mobile-menu__contakt-link {
+  .mobile-menu__contact-link {
     font-size: 34px;
   }
 }
@@ -1047,7 +1047,7 @@ img {
 }
 
 .advantage__title {
-  color: var(--color-conten);
+  color: var(--color-content);
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -1171,7 +1171,7 @@ img {
 }
 
 .team__name {
-  color: var(--color-conten);
+  color: var(--color-content);
   font-weight: 500;
   margin-bottom: 10px;
 }
